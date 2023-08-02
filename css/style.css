@@ -1,0 +1,129 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo_img {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border: 2px solid #000000;
+  width: 506px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  background-color: rgba(172, 206, 206, 0.264);
+}
+.active_list {
+  column-gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.active_item {
+  border-radius: 20px;
+  border: 1px solid #000000;
+  width: 140px;
+  height: 180px;
+  background-color: #fff;
+}
+.you_salary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 506px;
+  height: 100px;
+}
+.salary {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.you-mony {
+  border: 1px solid #000000;
+  width: 450px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.you_rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 506px;
+  height: 100px;
+}
+.rate {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.rate-list {
+  column-gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.rate_item {
+}
+.rate_btn {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #a5e4a59d;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+.rate_btn:hover,
+.rate_btn:focus {
+  border: 1px solid #ff0000;
+  background-color: #76f376;
+}
